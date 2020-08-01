@@ -6,19 +6,30 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#E2F7FDFD"
-        android:gravity="center"
+
         android:orientation="vertical"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
+
         android:paddingBottom="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/colorText"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Join US"
+            android:textSize="30dp"
+            android:layout_marginBottom="50dp"></TextView>
 
         <ImageView
             android:layout_width="100dp"
@@ -27,7 +38,11 @@
             android:layout_marginBottom="70dp"
             android:src="@drawable/main_logo"></ImageView>
 
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
         <EditText
             android:id="@+id/txt_email"
             android:layout_width="match_parent"
@@ -93,6 +108,9 @@
                 android:textSize="22dp" />
 
         </LinearLayout>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

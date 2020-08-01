@@ -8,26 +8,17 @@
     android:orientation="vertical"
     tools:context=".ContactUsActivity">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="15dp"
-        android:background="#FAFAFA"
-        android:padding="10dp"
-        app:cardCornerRadius="10dp">
-
-        <TextView
+    <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@color/colorText"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
             android:text="Contact US"
+            android:layout_marginBottom="30dp"
             android:textSize="30dp"></TextView>
-    </androidx.cardview.widget.CardView>
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -87,16 +78,16 @@
 
                     <Button
                         android:id="@+id/call_smit"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/call" />
 
                     <Button
                         android:id="@+id/email_smit"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="80dp"
+                        android:layout_height="55dp"
                         android:layout_weight="1"
                         android:background="@drawable/email" />
                 </LinearLayout>
@@ -163,16 +154,16 @@
 
                     <Button
                         android:id="@+id/call_pujan"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/call" />
 
                     <Button
                         android:id="@+id/email_pujan"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="80dp"
+                        android:layout_height="55dp"
                         android:layout_weight="1"
                         android:background="@drawable/email" />
                 </LinearLayout>
@@ -239,16 +230,16 @@
 
                     <Button
                         android:id="@+id/call_jenil"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/call" />
 
                     <Button
                         android:id="@+id/email_jenil"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="80dp"
+                        android:layout_height="55dp"
                         android:layout_weight="1"
                         android:background="@drawable/email" />
                 </LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21358174866",
+    "firebase_url": "https://loginusers-7648.firebaseio.com",
+    "project_id": "loginusers-7648",
+    "storage_bucket": "loginusers-7648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21358174866:android:72c3b0f2d499de1f297c4b",
+        "android_client_info": {
+          "package_name": "com.spatel.groupapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21358174866-36uoh9husbt47eoeg539onojaqaml2rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_HnlEIeswreIiIfu55BNkd0XIrI9fpCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21358174866-36uoh9husbt47eoeg539onojaqaml2rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

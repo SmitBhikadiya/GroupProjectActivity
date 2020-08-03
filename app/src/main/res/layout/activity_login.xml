@@ -10,9 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#E2F7FDFD"
-
         android:orientation="vertical"
-
         android:paddingBottom="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageview;
     Animation leftSmit,middlePujan,rightJenil,rotateLogo;
     private TextView txtSmit,txtPujan,txtJenil;
-    private final int SPLASH_SCREEN_TIME = 5000;
+    private final int SPLASH_SCREEN_TIME = 2500;
     private ImageView splashLogo;
 
 
